@@ -1,0 +1,87 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, total={6in, 9in}]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{csquotes}
+
+\title{Turbulence - Homework 3}
+\author{Matheus Montenegro Nunes}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{About the article}
+
+\begin{equation}
+    \frac{\partial u_i}{\partial x_i} = 0
+\end{equation}
+
+\begin{equation}
+\frac{\partial (u_i + u'_i)}{\partial x_i} = 0
+\end{equation}
+
+\begin{equation}
+\frac{\partial u_i}{\partial x_i} + \frac{\partial u'_i}{\partial x_i} = 0
+\end{equation}
+
+\begin{equation}
+\frac{\partial u_i}{\partial x_i}  = 0
+\end{equation}
+
+\section{About the article}
+
+\begin{equation}
+    \frac{\partial u_i}{\partial t} +
+    u_j\frac{\partial u_i}{\partial x_j} = -\frac{1}{\rho}\frac{\partial p}{\partial x_j} + \nu\frac{\partial^2 u_i}{\partial x_j \partial x_j}
+\end{equation}
+
+\begin{equation}
+    \frac{\partial u_i}{\partial t} 
+    + \frac{\partial u'_i}{\partial t}
+    + u_j\frac{\partial u_i}{\partial x_j} 
+    + u_j\frac{\partial u'_i}{\partial x_j} 
+    + u'_j\frac{\partial u_i}{\partial x_j}
+    + u'_j\frac{\partial u'_i}{\partial x_j} = -\frac{1}{\rho}\frac{\partial p}{\partial x_j}
+    -\frac{1}{\rho}\frac{\partial p'}{\partial x_j}
+    + \nu\frac{\partial^2 u_i}{\partial x_j \partial x_j} 
+    + \nu\frac{\partial^2 u'_i}{\partial x_j \partial x_j}
+\end{equation}
+
+\begin{equation}
+    \frac{\partial \bar{u_i}}{\partial t}
+    + \bar{u_j}\frac{\partial \bar{u_i}}{\partial x_j}
+    + \bar{u'_j}\frac{\partial \bar{u'_i}}{\partial x_j} = -\frac{1}{\rho}\frac{\partial \bar{p}}{\partial x_j} +\nu\frac{\partial^2 \bar{u_i}}{\partial x_j \partial x_j}
+\end{equation}
+
+\section{About the article}
+
+\begin{equation}
+    \frac{\partial \theta}{\partial t}
+    + u_j\frac{\partial \theta}{\partial x_j} = 
+    \Gamma\frac{\partial^2 \theta}{\partial x_j x_j}
+\end{equation}
+
+\begin{equation}
+    \frac{\partial \theta}{\partial t}
+    + \frac{\partial \theta'}{\partial t}
+    + u_j\frac{\partial \theta}{\partial x_j}
+    + u_j\frac{\partial \theta'}{\partial x_j}
+    + u'_j\frac{\partial \theta}{\partial x_j}
+    + u'_j\frac{\partial \theta'}{\partial x_j} = 
+    \Gamma\frac{\partial^2 \theta}{\partial x_j x_j}
+    + \Gamma\frac{\partial^2 \theta'}{\partial x_j x_j}
+\end{equation}
+
+\begin{equation}
+    \frac{\partial \bar{\theta}}{\partial t}
+    + \bar{u_j}\frac{\partial \bar{\theta}}{\partial x_j}
+    + \bar{u'_j}\frac{\partial \bar{\theta'}}{\partial x_j} = 
+    \Gamma\frac{\partial^2 \bar{\theta}}{\partial x_j x_j}
+\end{equation}
+
+\section{About the article}
+
+\end{document}
